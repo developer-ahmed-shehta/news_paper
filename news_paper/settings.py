@@ -42,8 +42,11 @@ INSTALLED_APPS = [
     "crispy_bootstrap5",
     # local
     'accounts',
-    'pages'
+    'pages',
+    'articles',
 ]
+
+TIME_ZONE = "Egypt/Cairo"
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
